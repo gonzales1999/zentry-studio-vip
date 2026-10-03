@@ -1,0 +1,149 @@
+{
+  "source": "videoplayback (6).mp4",
+  "reference_duration_seconds": 29.141333,
+  "animations": [
+    {
+      "id": "01_slide_up_lines",
+      "name": "Deslizar hacia arriba (Líneas)"
+    },
+    {
+      "id": "02_slide_up_words",
+      "name": "Deslizar hacia arriba (Palabras)"
+    },
+    {
+      "id": "03_slide_up_letters",
+      "name": "Deslizar hacia arriba (Letras)"
+    },
+    {
+      "id": "04_slide_down_lines",
+      "name": "Deslizar hacia abajo (Líneas)"
+    },
+    {
+      "id": "05_slide_down_words",
+      "name": "Deslizar hacia abajo (Palabras)"
+    },
+    {
+      "id": "06_slide_down_letters",
+      "name": "Deslizar hacia abajo (Letras)"
+    },
+    {
+      "id": "07_slide_left_lines",
+      "name": "Deslizar a la izquierda (Líneas)"
+    },
+    {
+      "id": "08_slide_right_lines",
+      "name": "Deslizar a la derecha (Líneas)"
+    },
+    {
+      "id": "09_slide_left_words",
+      "name": "Deslizar a la izquierda (Palabras)"
+    },
+    {
+      "id": "10_slide_right_words",
+      "name": "Deslizar a la derecha (Palabras)"
+    },
+    {
+      "id": "11_fade_simple",
+      "name": "Desvanecimiento simple"
+    },
+    {
+      "id": "12_fade_soft",
+      "name": "Desvanecimiento suave"
+    },
+    {
+      "id": "13_blur_fade",
+      "name": "Desenfoque y fundido"
+    },
+    {
+      "id": "14_scale_a",
+      "name": "Escala (A)"
+    },
+    {
+      "id": "15_scale_b",
+      "name": "Escala (B)"
+    },
+    {
+      "id": "16_scale_letters",
+      "name": "Escala (Letras)"
+    },
+    {
+      "id": "17_tracking_reveal_simple",
+      "name": "Revelación de seguimiento (Simple)"
+    },
+    {
+      "id": "18_tracking_reveal_elastic",
+      "name": "Seguimiento de Revelación (Elástico)"
+    },
+    {
+      "id": "19_reveal_soft",
+      "name": "Revelación suave"
+    },
+    {
+      "id": "20_reveal_bounce",
+      "name": "Revelación con rebote"
+    },
+    {
+      "id": "21_reveal_flip",
+      "name": "Revelación al voltear"
+    },
+    {
+      "id": "22_blurry_reveal_letters",
+      "name": "Revelación borrosa (Letras)"
+    },
+    {
+      "id": "23_blur_reveal_words",
+      "name": "Revelar con desenfoque (Palabras)"
+    },
+    {
+      "id": "24_blurry_reveal_random",
+      "name": "Revelación borrosa (Aleatoria)"
+    },
+    {
+      "id": "25_blur_reveal_chaotic",
+      "name": "Desenfoque revelar (caótica)"
+    },
+    {
+      "id": "26_letter_deletion",
+      "name": "Eliminación de letras"
+    },
+    {
+      "id": "27_letters_ascending",
+      "name": "Letras en ascenso"
+    }
+  ],
+  "subtitle_styles": [
+    {
+      "id": "S01_clean_serif_hero",
+      "name": "Clean + Serif Hero"
+    },
+    {
+      "id": "S02_yellow_bubble",
+      "name": "Yellow Bubble"
+    },
+    {
+      "id": "S03_gradient_serif",
+      "name": "Gradient Serif"
+    },
+    {
+      "id": "S04_yellow_micro",
+      "name": "Yellow Micro Karaoke"
+    },
+    {
+      "id": "S05_marker_handwritten",
+      "name": "Marker + Handwritten"
+    },
+    {
+      "id": "S06_tutorial_caps",
+      "name": "Tutorial CAPS"
+    },
+    {
+      "id": "S07_mint_serif",
+      "name": "Mint Serif Hero"
+    },
+    {
+      "id": "S08_yellow_glow_serif",
+      "name": "Yellow Glow Serif"
+    }
+  ],
+  "note": "Reimplementación visual propia basada en comportamientos observados en el video de referencia. El ítem 27 aparece parcialmente cortado en el video; se normalizó como 'Letras en ascenso'."
+}

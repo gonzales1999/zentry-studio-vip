@@ -1,0 +1,33 @@
+{
+  "subtitles": {
+    "Subtitle01CleanEditorial": "subtitle_01_clean_editorial",
+    "Subtitle02YellowBubblePro": "subtitle_02_yellow_bubble_pro",
+    "Subtitle03GradientEditorial": "subtitle_03_gradient_editorial",
+    "Subtitle04YellowMicroEditorial": "subtitle_04_yellow_micro_editorial",
+    "Subtitle05DualFontLabel": "subtitle_05_dual_font_label",
+    "Subtitle06TutorialCapsPro": "subtitle_06_tutorial_caps_pro",
+    "Subtitle07MintEditorial": "subtitle_07_mint_editorial",
+    "Subtitle08YellowGlowEditorial": "subtitle_08_yellow_glow_editorial"
+  },
+  "hooks": {
+    "Hook01DualLine": "hook_01_dual_line",
+    "Hook02LeftKeyword": "hook_02_left_keyword",
+    "Hook03Question": "hook_03_question",
+    "Hook04Number": "hook_04_number",
+    "Hook05Gradient": "hook_05_gradient",
+    "Hook06Editorial": "hook_06_editorial"
+  },
+  "broll": {
+    "BRollTop": "broll_top",
+    "BRollCenter": "broll_center",
+    "BRollBottom": "broll_bottom"
+  },
+  "motion-graphics": {
+    "Motion01HeroSplit": "motion_01_hero_split",
+    "Motion02KineticStack": "motion_02_kinetic_stack",
+    "Motion03EditorialQuote": "motion_03_editorial_quote",
+    "Motion04StatPunch": "motion_04_stat_punch",
+    "Motion05GradientTitle": "motion_05_gradient_title",
+    "Motion06StepSequence": "motion_06_step_sequence"
+  }
+}

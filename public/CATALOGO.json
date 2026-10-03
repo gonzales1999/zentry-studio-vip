@@ -1,0 +1,38 @@
+{
+  "fonts": {
+    "primary": "Montserrat ExtraBold/Black",
+    "accent": "Playfair Display Bold Italic"
+  },
+  "typography_animations": 27,
+  "subtitles": [
+    "Clean Editorial",
+    "Yellow Bubble Pro",
+    "Gradient Editorial",
+    "Yellow Micro Editorial",
+    "Dual Font Label",
+    "Tutorial Caps Pro",
+    "Mint Editorial",
+    "Yellow Glow Editorial"
+  ],
+  "hooks": [
+    "Dual Line",
+    "Left Keyword",
+    "Question",
+    "Number",
+    "Gradient",
+    "Editorial"
+  ],
+  "broll": [
+    "Top",
+    "Center",
+    "Bottom"
+  ],
+  "motion_graphics": [
+    "Hero Split",
+    "Kinetic Stack",
+    "Editorial Quote",
+    "Stat Punch",
+    "Gradient Title",
+    "Step Sequence"
+  ]
+}

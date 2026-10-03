@@ -1,0 +1,6 @@
+{
+  "requiredDependency": {
+    "@remotion/media": "MATCH_INSTALLED_REMOTION_VERSION"
+  },
+  "note": "Do not install a mismatched @remotion/media version."
+}

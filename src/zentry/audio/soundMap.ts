@@ -1,0 +1,61 @@
+export type ZentrySfxPreset = {
+  file: string;
+  volume: number;
+  offsetFrames: number;
+  label: string;
+};
+
+export const ZENTRY_SFX_MAP = {
+  "01_slide_up_lines": {file: "sfx/typography/01_slide_up_lines.mp3", volume: 0.46, offsetFrames: 0, label: "Deslizar hacia arriba (Líneas)"},
+  "02_slide_up_words": {file: "sfx/typography/02_slide_up_words.mp3", volume: 0.4, offsetFrames: 0, label: "Deslizar hacia arriba (Palabras)"},
+  "03_slide_up_letters": {file: "sfx/typography/03_slide_up_letters.mp3", volume: 0.38, offsetFrames: 0, label: "Deslizar hacia arriba (Letras)"},
+  "04_slide_down_lines": {file: "sfx/typography/04_slide_down_lines.mp3", volume: 0.46, offsetFrames: 0, label: "Deslizar hacia abajo (Líneas)"},
+  "05_slide_down_words": {file: "sfx/typography/05_slide_down_words.mp3", volume: 0.4, offsetFrames: 0, label: "Deslizar hacia abajo (Palabras)"},
+  "06_slide_down_letters": {file: "sfx/typography/06_slide_down_letters.mp3", volume: 0.38, offsetFrames: 0, label: "Deslizar hacia abajo (Letras)"},
+  "07_slide_left_lines": {file: "sfx/typography/07_slide_left_lines.mp3", volume: 0.44, offsetFrames: 0, label: "Deslizar a la izquierda (Líneas)"},
+  "08_slide_right_lines": {file: "sfx/typography/08_slide_right_lines.mp3", volume: 0.44, offsetFrames: 0, label: "Deslizar a la derecha (Líneas)"},
+  "09_slide_left_words": {file: "sfx/typography/09_slide_left_words.mp3", volume: 0.39, offsetFrames: 0, label: "Deslizar a la izquierda (Palabras)"},
+  "10_slide_right_words": {file: "sfx/typography/10_slide_right_words.mp3", volume: 0.39, offsetFrames: 0, label: "Deslizar a la derecha (Palabras)"},
+  "11_fade_simple": {file: "sfx/typography/11_fade_simple.mp3", volume: 0.28, offsetFrames: 0, label: "Desvanecimiento simple"},
+  "12_fade_soft": {file: "sfx/typography/12_fade_soft.mp3", volume: 0.32, offsetFrames: 0, label: "Desvanecimiento suave"},
+  "13_blur_fade": {file: "sfx/typography/13_blur_fade.mp3", volume: 0.34, offsetFrames: 0, label: "Desenfoque y fundido"},
+  "14_scale_a": {file: "sfx/typography/14_scale_a.mp3", volume: 0.43, offsetFrames: 0, label: "Escala (A)"},
+  "15_scale_b": {file: "sfx/typography/15_scale_b.mp3", volume: 0.48, offsetFrames: -2, label: "Escala (B)"},
+  "16_scale_letters": {file: "sfx/typography/16_scale_letters.mp3", volume: 0.37, offsetFrames: 0, label: "Escala (Letras)"},
+  "17_tracking_reveal_simple": {file: "sfx/typography/17_tracking_reveal_simple.mp3", volume: 0.28, offsetFrames: 0, label: "Revelación de seguimiento (Simple)"},
+  "18_tracking_reveal_elastic": {file: "sfx/typography/18_tracking_reveal_elastic.mp3", volume: 0.39, offsetFrames: 0, label: "Seguimiento de Revelación (Elástico)"},
+  "19_reveal_soft": {file: "sfx/typography/19_reveal_soft.mp3", volume: 0.34, offsetFrames: 0, label: "Revelación suave"},
+  "20_reveal_bounce": {file: "sfx/typography/20_reveal_bounce.mp3", volume: 0.43, offsetFrames: 0, label: "Revelación con rebote"},
+  "21_reveal_flip": {file: "sfx/typography/21_reveal_flip.mp3", volume: 0.42, offsetFrames: 0, label: "Revelación al voltear"},
+  "22_blurry_reveal_letters": {file: "sfx/typography/22_blurry_reveal_letters.mp3", volume: 0.31, offsetFrames: 0, label: "Revelación borrosa (Letras)"},
+  "23_blur_reveal_words": {file: "sfx/typography/23_blur_reveal_words.mp3", volume: 0.33, offsetFrames: 0, label: "Revelar con desenfoque (Palabras)"},
+  "24_blurry_reveal_random": {file: "sfx/typography/24_blurry_reveal_random.mp3", volume: 0.29, offsetFrames: 0, label: "Revelación borrosa (Aleatoria)"},
+  "25_blur_reveal_chaotic": {file: "sfx/typography/25_blur_reveal_chaotic.mp3", volume: 0.34, offsetFrames: 0, label: "Desenfoque revelar (caótica)"},
+  "26_letter_deletion": {file: "sfx/typography/26_letter_deletion.mp3", volume: 0.31, offsetFrames: 0, label: "Eliminación de letras"},
+  "27_letters_ascending": {file: "sfx/typography/27_letters_ascending.mp3", volume: 0.39, offsetFrames: 0, label: "Letras en ascenso"},
+  "subtitle_01_clean_editorial": {file: "sfx/subtitles/subtitle_01_clean_editorial.mp3", volume: 0.3, offsetFrames: 0, label: "Clean Editorial"},
+  "subtitle_02_yellow_bubble_pro": {file: "sfx/subtitles/subtitle_02_yellow_bubble_pro.mp3", volume: 0.38, offsetFrames: 0, label: "Yellow Bubble Pro"},
+  "subtitle_03_gradient_editorial": {file: "sfx/subtitles/subtitle_03_gradient_editorial.mp3", volume: 0.34, offsetFrames: 0, label: "Gradient Editorial"},
+  "subtitle_04_yellow_micro_editorial": {file: "sfx/subtitles/subtitle_04_yellow_micro_editorial.mp3", volume: 0.23, offsetFrames: 1, label: "Yellow Micro Editorial"},
+  "subtitle_05_dual_font_label": {file: "sfx/subtitles/subtitle_05_dual_font_label.mp3", volume: 0.3, offsetFrames: 0, label: "Dual Font Label"},
+  "subtitle_06_tutorial_caps_pro": {file: "sfx/subtitles/subtitle_06_tutorial_caps_pro.mp3", volume: 0.35, offsetFrames: 0, label: "Tutorial Caps Pro"},
+  "subtitle_07_mint_editorial": {file: "sfx/subtitles/subtitle_07_mint_editorial.mp3", volume: 0.31, offsetFrames: 0, label: "Mint Editorial"},
+  "subtitle_08_yellow_glow_editorial": {file: "sfx/subtitles/subtitle_08_yellow_glow_editorial.mp3", volume: 0.4, offsetFrames: -1, label: "Yellow Glow Editorial"},
+  "hook_01_dual_line": {file: "sfx/hooks/hook_01_dual_line.mp3", volume: 0.46, offsetFrames: -2, label: "Dual Line"},
+  "hook_02_left_keyword": {file: "sfx/hooks/hook_02_left_keyword.mp3", volume: 0.42, offsetFrames: 0, label: "Left Keyword"},
+  "hook_03_question": {file: "sfx/hooks/hook_03_question.mp3", volume: 0.37, offsetFrames: 0, label: "Question"},
+  "hook_04_number": {file: "sfx/hooks/hook_04_number.mp3", volume: 0.5, offsetFrames: -2, label: "Number"},
+  "hook_05_gradient": {file: "sfx/hooks/hook_05_gradient.mp3", volume: 0.4, offsetFrames: 0, label: "Gradient"},
+  "hook_06_editorial": {file: "sfx/hooks/hook_06_editorial.mp3", volume: 0.43, offsetFrames: -2, label: "Editorial"},
+  "broll_top": {file: "sfx/broll/broll_top.mp3", volume: 0.3, offsetFrames: 0, label: "B-Roll Top"},
+  "broll_center": {file: "sfx/broll/broll_center.mp3", volume: 0.42, offsetFrames: -1, label: "B-Roll Center"},
+  "broll_bottom": {file: "sfx/broll/broll_bottom.mp3", volume: 0.32, offsetFrames: 0, label: "B-Roll Bottom"},
+  "motion_01_hero_split": {file: "sfx/motion-graphics/motion_01_hero_split.mp3", volume: 0.48, offsetFrames: -2, label: "Hero Split"},
+  "motion_02_kinetic_stack": {file: "sfx/motion-graphics/motion_02_kinetic_stack.mp3", volume: 0.38, offsetFrames: 0, label: "Kinetic Stack"},
+  "motion_03_editorial_quote": {file: "sfx/motion-graphics/motion_03_editorial_quote.mp3", volume: 0.3, offsetFrames: 0, label: "Editorial Quote"},
+  "motion_04_stat_punch": {file: "sfx/motion-graphics/motion_04_stat_punch.mp3", volume: 0.5, offsetFrames: -2, label: "Stat Punch"},
+  "motion_05_gradient_title": {file: "sfx/motion-graphics/motion_05_gradient_title.mp3", volume: 0.4, offsetFrames: 0, label: "Gradient Title"},
+  "motion_06_step_sequence": {file: "sfx/motion-graphics/motion_06_step_sequence.mp3", volume: 0.34, offsetFrames: 0, label: "Step Sequence"},
+} as const satisfies Record<string, ZentrySfxPreset>;
+
+export type ZentrySfxId = keyof typeof ZENTRY_SFX_MAP;

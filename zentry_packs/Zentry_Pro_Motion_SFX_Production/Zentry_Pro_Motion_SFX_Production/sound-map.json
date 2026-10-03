@@ -1,0 +1,616 @@
+{
+  "version": "1.0.0",
+  "sampleRate": 44100,
+  "peakNormalization": "-3 dBFS",
+  "notes": "Original synthesized SFX created for Zentry Pro Motion templates.",
+  "presets": {
+    "01_slide_up_lines": {
+      "id": "01_slide_up_lines",
+      "label": "Deslizar hacia arriba (Líneas)",
+      "category": "typography",
+      "file": "sfx/typography/01_slide_up_lines.mp3",
+      "soundDesign": "rise_whoosh",
+      "volume": 0.46,
+      "offsetFrames": 0,
+      "durationSeconds": 0.42,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "02_slide_up_words": {
+      "id": "02_slide_up_words",
+      "label": "Deslizar hacia arriba (Palabras)",
+      "category": "typography",
+      "file": "sfx/typography/02_slide_up_words.mp3",
+      "soundDesign": "rise_whoosh",
+      "volume": 0.4,
+      "offsetFrames": 0,
+      "durationSeconds": 0.42,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "03_slide_up_letters": {
+      "id": "03_slide_up_letters",
+      "label": "Deslizar hacia arriba (Letras)",
+      "category": "typography",
+      "file": "sfx/typography/03_slide_up_letters.mp3",
+      "soundDesign": "ticks_up",
+      "volume": 0.38,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "04_slide_down_lines": {
+      "id": "04_slide_down_lines",
+      "label": "Deslizar hacia abajo (Líneas)",
+      "category": "typography",
+      "file": "sfx/typography/04_slide_down_lines.mp3",
+      "soundDesign": "fall_whoosh",
+      "volume": 0.46,
+      "offsetFrames": 0,
+      "durationSeconds": 0.42,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "05_slide_down_words": {
+      "id": "05_slide_down_words",
+      "label": "Deslizar hacia abajo (Palabras)",
+      "category": "typography",
+      "file": "sfx/typography/05_slide_down_words.mp3",
+      "soundDesign": "fall_whoosh",
+      "volume": 0.4,
+      "offsetFrames": 0,
+      "durationSeconds": 0.42,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "06_slide_down_letters": {
+      "id": "06_slide_down_letters",
+      "label": "Deslizar hacia abajo (Letras)",
+      "category": "typography",
+      "file": "sfx/typography/06_slide_down_letters.mp3",
+      "soundDesign": "ticks_down",
+      "volume": 0.38,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "07_slide_left_lines": {
+      "id": "07_slide_left_lines",
+      "label": "Deslizar a la izquierda (Líneas)",
+      "category": "typography",
+      "file": "sfx/typography/07_slide_left_lines.mp3",
+      "soundDesign": "left_whoosh",
+      "volume": 0.44,
+      "offsetFrames": 0,
+      "durationSeconds": 0.4,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "08_slide_right_lines": {
+      "id": "08_slide_right_lines",
+      "label": "Deslizar a la derecha (Líneas)",
+      "category": "typography",
+      "file": "sfx/typography/08_slide_right_lines.mp3",
+      "soundDesign": "right_whoosh",
+      "volume": 0.44,
+      "offsetFrames": 0,
+      "durationSeconds": 0.4,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "09_slide_left_words": {
+      "id": "09_slide_left_words",
+      "label": "Deslizar a la izquierda (Palabras)",
+      "category": "typography",
+      "file": "sfx/typography/09_slide_left_words.mp3",
+      "soundDesign": "left_whoosh",
+      "volume": 0.39,
+      "offsetFrames": 0,
+      "durationSeconds": 0.4,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "10_slide_right_words": {
+      "id": "10_slide_right_words",
+      "label": "Deslizar a la derecha (Palabras)",
+      "category": "typography",
+      "file": "sfx/typography/10_slide_right_words.mp3",
+      "soundDesign": "right_whoosh",
+      "volume": 0.39,
+      "offsetFrames": 0,
+      "durationSeconds": 0.4,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "11_fade_simple": {
+      "id": "11_fade_simple",
+      "label": "Desvanecimiento simple",
+      "category": "typography",
+      "file": "sfx/typography/11_fade_simple.mp3",
+      "soundDesign": "soft_fade",
+      "volume": 0.28,
+      "offsetFrames": 0,
+      "durationSeconds": 0.55,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "12_fade_soft": {
+      "id": "12_fade_soft",
+      "label": "Desvanecimiento suave",
+      "category": "typography",
+      "file": "sfx/typography/12_fade_soft.mp3",
+      "soundDesign": "soft_fade",
+      "volume": 0.32,
+      "offsetFrames": 0,
+      "durationSeconds": 0.55,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "13_blur_fade": {
+      "id": "13_blur_fade",
+      "label": "Desenfoque y fundido",
+      "category": "typography",
+      "file": "sfx/typography/13_blur_fade.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.34,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "14_scale_a": {
+      "id": "14_scale_a",
+      "label": "Escala (A)",
+      "category": "typography",
+      "file": "sfx/typography/14_scale_a.mp3",
+      "soundDesign": "pop",
+      "volume": 0.43,
+      "offsetFrames": 0,
+      "durationSeconds": 0.385,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "15_scale_b": {
+      "id": "15_scale_b",
+      "label": "Escala (B)",
+      "category": "typography",
+      "file": "sfx/typography/15_scale_b.mp3",
+      "soundDesign": "big_pop",
+      "volume": 0.48,
+      "offsetFrames": -2,
+      "durationSeconds": 0.72,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "16_scale_letters": {
+      "id": "16_scale_letters",
+      "label": "Escala (Letras)",
+      "category": "typography",
+      "file": "sfx/typography/16_scale_letters.mp3",
+      "soundDesign": "ticks_up",
+      "volume": 0.37,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "17_tracking_reveal_simple": {
+      "id": "17_tracking_reveal_simple",
+      "label": "Revelación de seguimiento (Simple)",
+      "category": "typography",
+      "file": "sfx/typography/17_tracking_reveal_simple.mp3",
+      "soundDesign": "ticks_up",
+      "volume": 0.28,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "18_tracking_reveal_elastic": {
+      "id": "18_tracking_reveal_elastic",
+      "label": "Seguimiento de Revelación (Elástico)",
+      "category": "typography",
+      "file": "sfx/typography/18_tracking_reveal_elastic.mp3",
+      "soundDesign": "elastic",
+      "volume": 0.39,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "19_reveal_soft": {
+      "id": "19_reveal_soft",
+      "label": "Revelación suave",
+      "category": "typography",
+      "file": "sfx/typography/19_reveal_soft.mp3",
+      "soundDesign": "soft_reveal",
+      "volume": 0.34,
+      "offsetFrames": 0,
+      "durationSeconds": 0.55,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "20_reveal_bounce": {
+      "id": "20_reveal_bounce",
+      "label": "Revelación con rebote",
+      "category": "typography",
+      "file": "sfx/typography/20_reveal_bounce.mp3",
+      "soundDesign": "bounce",
+      "volume": 0.43,
+      "offsetFrames": 0,
+      "durationSeconds": 0.52,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "21_reveal_flip": {
+      "id": "21_reveal_flip",
+      "label": "Revelación al voltear",
+      "category": "typography",
+      "file": "sfx/typography/21_reveal_flip.mp3",
+      "soundDesign": "flip",
+      "volume": 0.42,
+      "offsetFrames": 0,
+      "durationSeconds": 0.35,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "22_blurry_reveal_letters": {
+      "id": "22_blurry_reveal_letters",
+      "label": "Revelación borrosa (Letras)",
+      "category": "typography",
+      "file": "sfx/typography/22_blurry_reveal_letters.mp3",
+      "soundDesign": "sparkle",
+      "volume": 0.31,
+      "offsetFrames": 0,
+      "durationSeconds": 0.64,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "23_blur_reveal_words": {
+      "id": "23_blur_reveal_words",
+      "label": "Revelar con desenfoque (Palabras)",
+      "category": "typography",
+      "file": "sfx/typography/23_blur_reveal_words.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.33,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "24_blurry_reveal_random": {
+      "id": "24_blurry_reveal_random",
+      "label": "Revelación borrosa (Aleatoria)",
+      "category": "typography",
+      "file": "sfx/typography/24_blurry_reveal_random.mp3",
+      "soundDesign": "glitch",
+      "volume": 0.29,
+      "offsetFrames": 0,
+      "durationSeconds": 0.58,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "25_blur_reveal_chaotic": {
+      "id": "25_blur_reveal_chaotic",
+      "label": "Desenfoque revelar (caótica)",
+      "category": "typography",
+      "file": "sfx/typography/25_blur_reveal_chaotic.mp3",
+      "soundDesign": "glitch_heavy",
+      "volume": 0.34,
+      "offsetFrames": 0,
+      "durationSeconds": 0.6,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "26_letter_deletion": {
+      "id": "26_letter_deletion",
+      "label": "Eliminación de letras",
+      "category": "typography",
+      "file": "sfx/typography/26_letter_deletion.mp3",
+      "soundDesign": "delete",
+      "volume": 0.31,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "27_letters_ascending": {
+      "id": "27_letters_ascending",
+      "label": "Letras en ascenso",
+      "category": "typography",
+      "file": "sfx/typography/27_letters_ascending.mp3",
+      "soundDesign": "ascend",
+      "volume": 0.39,
+      "offsetFrames": 0,
+      "durationSeconds": 0.66,
+      "appliesToFonts": [
+        "montserrat",
+        "playfair"
+      ]
+    },
+    "subtitle_01_clean_editorial": {
+      "id": "subtitle_01_clean_editorial",
+      "label": "Clean Editorial",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_01_clean_editorial.mp3",
+      "soundDesign": "soft_reveal",
+      "volume": 0.3,
+      "offsetFrames": 0,
+      "durationSeconds": 0.55
+    },
+    "subtitle_02_yellow_bubble_pro": {
+      "id": "subtitle_02_yellow_bubble_pro",
+      "label": "Yellow Bubble Pro",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_02_yellow_bubble_pro.mp3",
+      "soundDesign": "bounce",
+      "volume": 0.38,
+      "offsetFrames": 0,
+      "durationSeconds": 0.52
+    },
+    "subtitle_03_gradient_editorial": {
+      "id": "subtitle_03_gradient_editorial",
+      "label": "Gradient Editorial",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_03_gradient_editorial.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.34,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65
+    },
+    "subtitle_04_yellow_micro_editorial": {
+      "id": "subtitle_04_yellow_micro_editorial",
+      "label": "Yellow Micro Editorial",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_04_yellow_micro_editorial.mp3",
+      "soundDesign": "tiny_chime",
+      "volume": 0.23,
+      "offsetFrames": 1,
+      "durationSeconds": 0.38
+    },
+    "subtitle_05_dual_font_label": {
+      "id": "subtitle_05_dual_font_label",
+      "label": "Dual Font Label",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_05_dual_font_label.mp3",
+      "soundDesign": "ticks_up",
+      "volume": 0.3,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62
+    },
+    "subtitle_06_tutorial_caps_pro": {
+      "id": "subtitle_06_tutorial_caps_pro",
+      "label": "Tutorial Caps Pro",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_06_tutorial_caps_pro.mp3",
+      "soundDesign": "rise_whoosh",
+      "volume": 0.35,
+      "offsetFrames": 0,
+      "durationSeconds": 0.42
+    },
+    "subtitle_07_mint_editorial": {
+      "id": "subtitle_07_mint_editorial",
+      "label": "Mint Editorial",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_07_mint_editorial.mp3",
+      "soundDesign": "soft_reveal",
+      "volume": 0.31,
+      "offsetFrames": 0,
+      "durationSeconds": 0.55
+    },
+    "subtitle_08_yellow_glow_editorial": {
+      "id": "subtitle_08_yellow_glow_editorial",
+      "label": "Yellow Glow Editorial",
+      "category": "subtitles",
+      "file": "sfx/subtitles/subtitle_08_yellow_glow_editorial.mp3",
+      "soundDesign": "big_pop",
+      "volume": 0.4,
+      "offsetFrames": -1,
+      "durationSeconds": 0.72
+    },
+    "hook_01_dual_line": {
+      "id": "hook_01_dual_line",
+      "label": "Dual Line",
+      "category": "hooks",
+      "file": "sfx/hooks/hook_01_dual_line.mp3",
+      "soundDesign": "cinematic",
+      "volume": 0.46,
+      "offsetFrames": -2,
+      "durationSeconds": 0.78
+    },
+    "hook_02_left_keyword": {
+      "id": "hook_02_left_keyword",
+      "label": "Left Keyword",
+      "category": "hooks",
+      "file": "sfx/hooks/hook_02_left_keyword.mp3",
+      "soundDesign": "left_whoosh",
+      "volume": 0.42,
+      "offsetFrames": 0,
+      "durationSeconds": 0.4
+    },
+    "hook_03_question": {
+      "id": "hook_03_question",
+      "label": "Question",
+      "category": "hooks",
+      "file": "sfx/hooks/hook_03_question.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.37,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65
+    },
+    "hook_04_number": {
+      "id": "hook_04_number",
+      "label": "Number",
+      "category": "hooks",
+      "file": "sfx/hooks/hook_04_number.mp3",
+      "soundDesign": "big_pop",
+      "volume": 0.5,
+      "offsetFrames": -2,
+      "durationSeconds": 0.72
+    },
+    "hook_05_gradient": {
+      "id": "hook_05_gradient",
+      "label": "Gradient",
+      "category": "hooks",
+      "file": "sfx/hooks/hook_05_gradient.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.4,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65
+    },
+    "hook_06_editorial": {
+      "id": "hook_06_editorial",
+      "label": "Editorial",
+      "category": "hooks",
+      "file": "sfx/hooks/hook_06_editorial.mp3",
+      "soundDesign": "cinematic",
+      "volume": 0.43,
+      "offsetFrames": -2,
+      "durationSeconds": 0.78
+    },
+    "broll_top": {
+      "id": "broll_top",
+      "label": "B-Roll Top",
+      "category": "broll",
+      "file": "sfx/broll/broll_top.mp3",
+      "soundDesign": "ui",
+      "volume": 0.3,
+      "offsetFrames": 0,
+      "durationSeconds": 0.3
+    },
+    "broll_center": {
+      "id": "broll_center",
+      "label": "B-Roll Center",
+      "category": "broll",
+      "file": "sfx/broll/broll_center.mp3",
+      "soundDesign": "big_pop",
+      "volume": 0.42,
+      "offsetFrames": -1,
+      "durationSeconds": 0.72
+    },
+    "broll_bottom": {
+      "id": "broll_bottom",
+      "label": "B-Roll Bottom",
+      "category": "broll",
+      "file": "sfx/broll/broll_bottom.mp3",
+      "soundDesign": "soft_reveal",
+      "volume": 0.32,
+      "offsetFrames": 0,
+      "durationSeconds": 0.55
+    },
+    "motion_01_hero_split": {
+      "id": "motion_01_hero_split",
+      "label": "Hero Split",
+      "category": "motion-graphics",
+      "file": "sfx/motion-graphics/motion_01_hero_split.mp3",
+      "soundDesign": "cinematic",
+      "volume": 0.48,
+      "offsetFrames": -2,
+      "durationSeconds": 0.78
+    },
+    "motion_02_kinetic_stack": {
+      "id": "motion_02_kinetic_stack",
+      "label": "Kinetic Stack",
+      "category": "motion-graphics",
+      "file": "sfx/motion-graphics/motion_02_kinetic_stack.mp3",
+      "soundDesign": "ticks_up",
+      "volume": 0.38,
+      "offsetFrames": 0,
+      "durationSeconds": 0.62
+    },
+    "motion_03_editorial_quote": {
+      "id": "motion_03_editorial_quote",
+      "label": "Editorial Quote",
+      "category": "motion-graphics",
+      "file": "sfx/motion-graphics/motion_03_editorial_quote.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.3,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65
+    },
+    "motion_04_stat_punch": {
+      "id": "motion_04_stat_punch",
+      "label": "Stat Punch",
+      "category": "motion-graphics",
+      "file": "sfx/motion-graphics/motion_04_stat_punch.mp3",
+      "soundDesign": "big_pop",
+      "volume": 0.5,
+      "offsetFrames": -2,
+      "durationSeconds": 0.72
+    },
+    "motion_05_gradient_title": {
+      "id": "motion_05_gradient_title",
+      "label": "Gradient Title",
+      "category": "motion-graphics",
+      "file": "sfx/motion-graphics/motion_05_gradient_title.mp3",
+      "soundDesign": "shimmer",
+      "volume": 0.4,
+      "offsetFrames": 0,
+      "durationSeconds": 0.65
+    },
+    "motion_06_step_sequence": {
+      "id": "motion_06_step_sequence",
+      "label": "Step Sequence",
+      "category": "motion-graphics",
+      "file": "sfx/motion-graphics/motion_06_step_sequence.mp3",
+      "soundDesign": "ui",
+      "volume": 0.34,
+      "offsetFrames": 0,
+      "durationSeconds": 0.3
+    }
+  }
+}
