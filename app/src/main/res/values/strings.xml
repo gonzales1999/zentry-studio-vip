@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zentry Studio</string>
+    <string name="tagline">Vertical Video &amp; Subtitle Studio</string>
+    <string name="tab_timeline">Timeline</string>
+    <string name="tab_subtitles">Subtítulos</string>
+    <string name="tab_hooks">Hooks</string>
+    <string name="tab_broll">B-Roll</string>
+    <string name="tab_motion">Motion</string>
+    <string name="tab_audio">Audio &amp; SFX</string>
+    <string name="tab_vip">VIP Suite</string>
+    <string name="export_action">Exportar Viral</string>
+    <string name="credits_label">Créditos VIP</string>
+</resources>

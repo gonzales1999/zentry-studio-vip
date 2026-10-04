@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#080808</color>
+    <color name="panel_dark">#121212</color>
+    <color name="card_dark">#181818</color>
+    <color name="brand_red">#FF2A2A</color>
+    <color name="brand_red_dark">#8F1212</color>
+    <color name="brand_cyan">#00F5C8</color>
+    <color name="brand_gold">#D7AD55</color>
+    <color name="brand_mint">#13E7C5</color>
+    <color name="text_primary">#F6F6F6</color>
+    <color name="text_secondary">#858585</color>
+    <color name="line_border">#282828</color>
+</resources>

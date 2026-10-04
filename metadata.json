@@ -1,0 +1,6 @@
+{
+  "name": "Zentry Studio",
+  "description": "Zentry Studio: Vertical video editor with dynamic captions, B-roll overlays, viral hooks, motion graphics, audio timeline, and VIP suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
